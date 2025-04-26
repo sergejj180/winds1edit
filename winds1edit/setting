@@ -1,0 +1,9 @@
+MINGW_HOME = ${MSYS_HOME}\mingw64;
+MSYS_HOME = E:\msys64;
+
+PATH = 
+${MINGW_HOME}\bin;
+${MINGW_HOME}\bin\include;
+${MINGW_HOME}\bin\include\c++\11.2.0;
+${MSYS_HOME}\usr\bin;
+${MSYS_HOME}\usr\include;
