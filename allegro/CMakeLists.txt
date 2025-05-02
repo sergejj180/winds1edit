@@ -696,7 +696,7 @@ macro(add_headers location)
 endmacro(add_headers)
 
 configure_file(
-    ${CMAKE_SOURCE_DIR}/include/allegro/platform/alplatf.h.cmake
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/allegro/platform/alplatf.h.cmake
     ${CMAKE_BINARY_DIR}/include/allegro/platform/alplatf.h
     @ONLY
     )
