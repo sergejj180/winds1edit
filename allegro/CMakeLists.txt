@@ -75,7 +75,7 @@ set(COMPAT_VERSION 4.4.0)
 set(ALLEGRO_DLL_SHORTVER 44)
 
 # Search in the `cmake' directory for additional CMake modules.
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 # Search for C header files in these directories.
 include_directories(${CMAKE_SOURCE_DIR}/include)
@@ -769,7 +769,7 @@ add_our_library(allegro
     ${ALLEGRO_SRC_FILES}
     ${ALLEGRO_SRC_C_FILES}
     ${PLATFORM_SOURCES}
-    ${ALLEGRO_PUBLIC_HEADERS}
+    ${ALLEGRO_PUBLIC_HEADERS}0
     )
 
 if(WIN32 AND SHARED)
